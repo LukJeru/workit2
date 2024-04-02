@@ -5,4 +5,101 @@ body {
   box-sizing: border-box;
   font-size: 18px;
   font-family: Manrope;
+  line-height: 32px;
+  color: var(--text-color);
+}
+
+:root {
+  --green-highlight: hsl(150, 100%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --header-background: hsl(273,85%,13%);
+  --text-color: hsl(271, 12%, 34%);
+}
+
+
+header {
+  background-color: var(--header-background);
+}
+
+.underline{
+  border-bottom: 2px solid var(--green-highlight);
+}
+
+.top{
+  width: 80%;
+  margin: 0px auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.top p {
+  cursor: pointer;
+}
+
+.top p:hover {
+  color: var(--green-highlight);
+}
+
+.hero {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1,h2,h3 {
+  font-family: Fraunces;
+  font-weight: 600;
+}
+
+.hero h1 {
+  margin: 0 auto;
+  text-align: center;
+  color: var(--white);
+  font-size: 80px;
+  width: 40%;
+  line-height: 80px;
+}
+
+
+.hero button{
+  margin: 40px auto;
+  width: 14%;
+  background-color: var(--green-highlight);
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.hero button:hover{
+  background-color: var(--header-background);
+  color: var(--green-highlight);
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: 1px solid var(--green-highlight);
+}
+
+#pattern-1 {
+  position: relative;
+  bottom: 20rem;
+  right: 8rem;
+}
+
+#pattern-2 {
+  position: relative;
+  bottom: 20rem;
+  left: 65rem;
+}
+
+#hero-image {
+  height: 30%;
+  width: 60%;
+  position: relative;
+  top: 5rem;
+  right: 10rem;
 }
