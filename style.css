@@ -4,6 +4,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   font-size: 18px;
+  overflow: scroll;
   font-family: Manrope;
   line-height: 32px;
   color: var(--text-color);
@@ -19,6 +20,12 @@ body {
 
 header {
   background-color: var(--header-background);
+  width: 110%;
+  positioN: relative;
+  left: -5%;
+  height: 45rem;
+  border-bottom-left-radius: 70% 20%;
+  border-bottom-right-radius: 70% 20%;
 }
 
 .underline{
@@ -26,7 +33,7 @@ header {
 }
 
 .top{
-  width: 80%;
+  width: 70%;
   margin: 0px auto;
   padding-top: 20px;
   display: flex;
@@ -87,19 +94,19 @@ h1,h2,h3 {
 #pattern-1 {
   position: relative;
   bottom: 20rem;
-  right: 8rem;
+  right: 5rem;
 }
 
 #pattern-2 {
   position: relative;
   bottom: 20rem;
-  left: 65rem;
+  left: 66rem;
 }
 
 #hero-image {
-  height: 30%;
-  width: 60%;
+  height: 55%;
+  width: 50%;
   position: relative;
-  top: 5rem;
-  right: 10rem;
+  top: 4rem;
+  right: 6rem;
 }
