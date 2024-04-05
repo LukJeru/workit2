@@ -34,6 +34,11 @@ h1 {
   line-height: 80px;
 }
 
+h2 {
+  font-size: 56px;
+  line-height: 64px;
+}
+
 
 h3 {
   font-size: 32px;
@@ -160,4 +165,56 @@ main {
   border-radius: 50%;
   border: 1px solid var(--text-color);
   text-align: center;
+}
+
+.louis {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  height: 25rem;
+  width: 25rem;
+  z-index: 0;
+  position: relative;
+  top: 10rem;
+}
+
+.louis div {
+  background-color: var(--header-background);
+  color: white;
+  z-index: 1;
+  width: 40rem;
+  position: relative;
+  top: 20rem;
+  right: 5rem;
+  padding: 3rem;
+}
+
+.louis div button {
+  background-color: var(--green-highlight);
+  border: none;
+  font-weight: 600;
+  width: 15rem;
+  height: 4rem;
+  border-radius: 1px;
+  margin-top: 2rem;
+}
+
+.louis div button:hover {
+  background-color: var(--header-background);
+  color: var(--green-highlight);
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: 1px solid var(--green-highlight);
+}
+
+#pattern-3 {
+  position: absolute;
+  height: 15rem;
+  width: 15rem;
+  right: 18rem;
+  top: 101rem;
+  z-index: 2;
 }
