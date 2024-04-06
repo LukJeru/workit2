@@ -250,3 +250,86 @@ footer img {
   width: 1rem;
   height: 1rem;
 }
+
+
+@media only screen and (max-width:481px) {
+
+}
+
+@media only screen and (max-width:961px) {
+
+  #pattern-1 {
+    bottom: 20rem;
+    right: 12rem;
+  }
+
+  #pattern-2 {
+    bottom: 15rem;
+    left: 21rem;
+  }
+
+  .top {
+    align-items: center;
+    width: 80%;
+  }
+
+  .top p {
+    position: relative;
+    bottom: 0rem;
+  }
+
+  h1 {
+    width: 68%;
+    font-size: 60px;
+  }
+
+  body {
+    font-size: 12px;
+  }
+
+  header {
+    left: -6%;
+    height: 38rem;
+  }
+
+  #hero-image {
+    top: -16rem;
+    left: 14rem;
+    height: 38%;
+  }
+
+  .hero button {
+    width: 22%;
+  }
+
+  .article-section{
+    flex-direction: column;
+    align-items: center;
+    margin-top: -8rem;
+  }
+
+  .article-section article{
+    width: 60%;
+    display: grid;
+    grid-template: 1fr 1fr/ 1fr 4fr;
+  }
+
+  .number {
+    grid-area: 1/1/ span 2/ span 1;
+  }
+
+  .article-heading {
+    grid-area: 1/2/ span 1/ span 1;
+  }
+
+  .article-section p {
+    grid-area: 2/2/ span 1/ span 1;
+  }
+
+
+  .louis {
+    justify-content: center;
+    margin-top: 15rem;
+    width: 60%;
+  }
+}
