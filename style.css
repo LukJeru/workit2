@@ -179,6 +179,7 @@ main {
   z-index: 0;
   position: relative;
   top: 10rem;
+  left: 5rem;
 }
 
 .louis div {
@@ -188,7 +189,6 @@ main {
   width: 40rem;
   position: relative;
   top: 20rem;
-  right: 5rem;
   padding: 3rem;
 }
 
@@ -210,11 +210,43 @@ main {
   border: 1px solid var(--green-highlight);
 }
 
+.louis h2, p, button {
+  position: relative;
+  bottom: 2rem;
+}
+
 #pattern-3 {
   position: absolute;
   height: 15rem;
   width: 15rem;
-  right: 18rem;
+  right: 13rem;
   top: 101rem;
   z-index: 2;
+}
+
+footer {
+  margin: 0 auto;
+  position: relative;
+  align-items: center;
+  top: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+footer img {
+  width: 7rem;
+  height: 8rem;
+}
+
+.apply {
+  display: flex;
+  width: 9%;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.apply img {
+  display: inline;
+  width: 1rem;
+  height: 1rem;
 }
