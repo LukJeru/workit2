@@ -253,7 +253,13 @@ footer img {
 
 
 @media only screen and (max-width:481px) {
+  #pattern-1, #pattern-2, #patter-3 {
+    display:none;
+  }
 
+  #hero-image {
+    
+  }
 }
 
 @media only screen and (max-width:961px) {
